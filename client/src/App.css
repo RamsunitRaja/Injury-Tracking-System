@@ -1,0 +1,154 @@
+body {
+  background-image: url("../utils/BgImage.png");
+  display: flex;
+  flex-direction: column;
+}
+
+.report{
+  margin-left: 33%; /* Set margin-left to 50% */
+}
+
+
+.nav-ul {
+  padding: 5px;
+  margin: 0px;
+  background-color: rgb(138, 113, 32);
+}
+.nav-ul li{
+  display:  inline-block;
+  padding: 10px;
+}
+.nav-ul li a {
+  color: #cbbebe;
+  text-decoration: none;
+  padding: 5px;
+}
+.footer {
+  /* position: relative; */
+  bottom: 0;
+  background-color: rgb(209, 104, 11);
+  width: 100%;
+  /* height: 100px; */
+  text-align: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3e6ecd;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.register, .report{
+  margin-left: 30%;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.inputBox {
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  width: 300px;
+  margin: 20px;
+}
+
+.appButton {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: solid 1px;
+  cursor: pointer;
+}
+.nav-right{
+  text-align: right;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.report-list {
+  border-width: 10px;
+  /* border-radius: 10px; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.report-list ul li {
+  border-width: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 150px;
+  border: 1px solid skyblue;
+  padding: 5px;
+}
+
+.report-list ul{
+  border-width: 10px;
+  margin: 0;
+}
+
+.search-report-box {
+  border-radius: 12px;
+  width: 400px;
+  margin: 20px;
+  height: 38px;
+  padding-left: 30px;
+  border: solid 1px skyblue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000; /* Set the border color and thickness */
+  border-radius: 50%; /* Make it a circle */
+  background: transparent; /* Set the center to be transparent */
+  
+}
