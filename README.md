@@ -27,8 +27,6 @@ It is a Full stack web application that can be used by an organization (such as 
 - **Auth0 Integration**: User authentication is implemented using Auth0, providing a reliable and secure authentication.
 ## Installation
 
-Install my-project with npm
-
 ```bash
 # Clone the repository
 git clone https://github.com/RamsunitRaja/Injury-Tracking-System.git
