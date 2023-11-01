@@ -25,6 +25,33 @@ It is a Full stack web application that can be used by an organization (such as 
 - **Secure Registration**: Users can register with the system using a username and password. They have options for Google login and email login.
 
 - **Auth0 Integration**: User authentication is implemented using Auth0, providing a reliable and secure authentication.
+## Installation
+
+Install my-project with npm
+
+```bash
+# Clone the repository
+git clone https://github.com/RamsunitRaja/Injury-Tracking-System.git
+
+# Navigate to the client directory
+cd client
+
+# Install dependencies
+npm install
+
+# Navigate to the server directory
+cd server
+
+# Install dependencies
+npm install
+
+# client directory
+npm start
+# server directory
+nodemon 
+
+```
+    
 ## Technologies
 - **Front-end**: React.js. State management is handled using React Context.
 
