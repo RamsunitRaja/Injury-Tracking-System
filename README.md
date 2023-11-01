@@ -25,6 +25,13 @@ It is a Full stack web application that can be used by an organization (such as 
 - **Secure Registration**: Users can register with the system using a username and password. They have options for Google login and email login.
 
 - **Auth0 Integration**: User authentication is implemented using Auth0, providing a reliable and secure authentication.
+## Technologies
+- **Front-end**: React.js. State management is handled using React Context.
+
+- **Back-end**: NodeJs, with MongoDB database.
+
+- **Authentication**: Auth0 for user authentication, with options for Google login and email login.
+- **Progressive Web App (PWA)**: The system is built with PWA features offering an enhanced user experience.
 ## Authors
 
 - [@RamsunitRaja](https://github.com/RamsunitRaja)
